@@ -4,7 +4,7 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = 443;
 
 app.use(cors({
     origin: "https://webshop-two-beta.vercel.app",
