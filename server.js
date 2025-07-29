@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://webshop-two-beta.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
